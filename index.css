@@ -59,12 +59,12 @@
   align-self: stretch;
   position: absolute;
   margin: 0 !important;
-  height: 122.65%;
-  width: 156.98%;
-  top: -9.09%;
-  right: -21.08%;
-  bottom: -13.56%;
-  left: -35.9%;
+  height: 103.31%;
+  width: 213.38%;
+  top: -0.46%;
+  right: -49.85%;
+  bottom: -2.85%;
+  left: -63.54%;
   border-radius: 233.05px;
   max-width: 100%;
   overflow: hidden;
@@ -97,7 +97,7 @@
   min-width: 280px;
 }
 .elevate-your-videos-with-ai-po-parent {
-  width: 1068px;
+  align-self: stretch;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -106,11 +106,10 @@
   z-index: 1;
 }
 .generate-music-tailored {
+  align-self: stretch;
   position: relative;
   font-size: var(--lead-text-size);
   line-height: 140%;
-  display: inline-block;
-  width: 1068px;
   z-index: 2;
 }
 .advantages-image-icon {
@@ -163,7 +162,7 @@
   justify-content: flex-start;
 }
 .advantages-ell-parent {
-  width: 1068px;
+  align-self: stretch;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 8px;
@@ -260,7 +259,7 @@
   position: absolute;
   margin: 0 !important;
   top: 0;
-  left: calc(50% - 470px);
+  left: calc(50% - 195px);
   width: 940px;
   height: 940px;
   object-fit: cover;
@@ -518,24 +517,24 @@
   max-width: 1200px;
   text-align: center;
 }
-.rhlsa05mc8ysv2-digital-art-x4-icon {
+.rhlsa05mc8ysv2-digital-art-x4-icon,
+.title-child {
   position: absolute;
   margin: 0 !important;
+  left: calc(50% - 195px);
+}
+.rhlsa05mc8ysv2-digital-art-x4-icon {
   top: 0;
-  left: calc(50% - 487px);
   width: 974px;
   height: 974px;
   object-fit: cover;
   z-index: 0;
 }
 .title-child {
-  position: absolute;
-  margin: 0 !important;
-  top: calc(50% - 89.5px);
-  left: calc(50% - 582px);
+  top: calc(50% - 148.5px);
   border-radius: 233.05px;
-  width: 1053.3px;
-  height: 179px;
+  width: 390px;
+  height: 297px;
   opacity: 0.4;
   z-index: 1;
 }
