@@ -262,13 +262,16 @@
   gap: var(--gap-21xl);
   max-width: 1200px;
 }
-.a6rd6rgor25efe-digital-art-x4-icon {
+.bg-image-subsrciptio-icon {
+  align-self: stretch;
   position: absolute;
   margin: 0 !important;
   top: 0;
   left: calc(50% - 469.5px);
-  width: 940px;
+  max-width: 100%;
+  overflow: hidden;
   height: 940px;
+  flex-shrink: 0;
   object-fit: cover;
   z-index: 0;
 }
@@ -282,13 +285,14 @@
   display: inline-block;
   min-width: 280px;
 }
-.subsription-plans-wrapper {
-  align-self: stretch;
+.h2-section {
+  width: 1104px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding: 0 0 var(--padding-21xl);
+  box-sizing: border-box;
   z-index: 1;
 }
 .plan-name {
@@ -400,8 +404,8 @@
   justify-content: flex-start;
   gap: var(--gap-4xs);
 }
-.price-block-parent,
-.price-block1 {
+.price-block1,
+.pricing-cards-div {
   display: flex;
   align-items: flex-start;
   gap: var(--gap-base);
@@ -419,7 +423,7 @@
   box-sizing: border-box;
   min-width: 250px;
 }
-.price-block-parent {
+.pricing-cards-div {
   align-self: stretch;
   flex-direction: row;
   flex-wrap: wrap;
@@ -463,25 +467,6 @@
   font-size: var(--lead-text-size);
 }
 .for-example {
-  position: relative;
-  line-height: 140%;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 600px;
-  flex-shrink: 0;
-  max-width: 600px;
-}
-.divpricing-disclaimer1 {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 0 var(--padding-xl);
-}
-.music-generated-by {
   flex: 1;
   position: relative;
   line-height: 140%;
@@ -489,32 +474,40 @@
   display: inline-block;
   max-width: 600px;
 }
+.divpricing-disclaimer1,
+.divpricing-disclaimer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.divpricing-disclaimer1 {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-xl);
+}
 .divpricing-disclaimer2 {
   width: 100%;
   border-radius: var(--br-xs);
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
   padding: var(--padding-xl);
   max-width: 600px;
 }
-.frame-group,
-.mubertcom-by-htmltodesign {
+.container,
+.sectionsubscription {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
-.frame-group {
-  align-self: stretch;
+.container {
+  width: 1104px;
   z-index: 2;
   font-size: var(--text-16-size);
 }
-.mubertcom-by-htmltodesign {
+.sectionsubscription {
   width: 100%;
   background-color: var(--color-gray-100);
   overflow: hidden;
