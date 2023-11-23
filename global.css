@@ -8,8 +8,8 @@ body {
   --lead-text: Inter;
 
   /* font sizes */
-  --text-16-size: 16px;
   --lead-text-size: 18px;
+  --text-16-size: 16px;
   --font-size-smi: 13px;
   --text-14-size: 14px;
   --caption-size: 12px;
@@ -32,10 +32,10 @@ body {
   --gap-4xs: 9px;
 
   /* Paddings */
-  --padding-29xl: 48px;
-  --padding-61xl: 80px;
   --padding-xl: 20px;
   --padding-17xl: 36px;
+  --padding-29xl: 48px;
+  --padding-61xl: 80px;
   --padding-base: 16px;
   --padding-5xl: 24px;
   --padding-21xl: 40px;
